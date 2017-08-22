@@ -201,12 +201,6 @@ export default class Menu extends Component {
           <Link className='nav-link' style={{display: 'flex'}} to={'/about'}>
             {+process.env.XOA_PLAN === 5
               ? <span>
-                <span className={classNames(styles.hiddenCollapsed, 'text-warning')}>
-                  <Icon icon='alarm' size='lg' fixedWidth /> {_('noSupport')}
-                </span>
-                <span className={classNames(styles.hiddenUncollapsed, 'text-warning')}>
-                  <Icon icon='alarm' size='lg' fixedWidth />
-                </span>
               </span>
               : +process.env.XOA_PLAN === 1
                 ? <span>
