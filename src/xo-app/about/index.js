@@ -54,13 +54,6 @@ export default class About extends Component {
         {process.env.XOA_PLAN > 4
           ? <div>
             <Row>
-              <Col>
-                <h2 className='text-danger'>{_('noProSupport')}</h2>
-                <h4 className='text-danger'>{_('noProductionUse')}</h4>
-                <p className='text-muted'>{_('downloadXoaFromWebsite', { website: <a href='https://xen-orchestra.com/#!/?pk_campaign=xoa_source_upgrade&pk_kwd=about'>http://xen-orchestra.com</a> })}</p>
-              </Col>
-            </Row>
-            <Row>
               <Col mediumSize={6}>
                 <a href='https://github.com/vatesfr/xo-web/issues/new'>
                   <Icon icon='bug' size={4} />
