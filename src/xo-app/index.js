@@ -87,6 +87,7 @@ const BODY_STYLE = {
   'vms/new': NewVm,
   'vms/:id': Vm,
   'xoa-update': XoaUpdates,
+  'xosan': Xosan
 
 })
 @connectStore((state) => {
